@@ -1,91 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\V4_12_MyProject_1.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{334F19E1-EAF0-43D5-B846-30824A99A353}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\V4_12_MyProject_1.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\V4_12_MyProject_1Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{E94CB655-29B7-46B0-9DEF-8AEA38E87EC4}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Plugins">
-			<UniqueIdentifier>{76B93EAE-72DC-438A-BFFA-5BFBB348C3D0}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\BP_Lib_V3">
-			<UniqueIdentifier>{72C267B5-4E83-4310-82D5-8F43D7E3E491}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\BP_Lib_V3\Source">
-			<UniqueIdentifier>{18F024DE-B7C5-4CF0-84BE-195B319E2342}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\BP_Lib_V3\Source\BP_Lib_V3">
-			<UniqueIdentifier>{46DDC8F2-BAA4-43DF-B3AD-575AB31E8389}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\BP_Lib_V3.Build.cs">
-			<Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3</Filter>
-		</None >
-		<Filter Include="Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private">
-			<UniqueIdentifier>{AABFFE05-E21E-469D-A20F-DB27055E68A0}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private\BP_Lib_V3.cpp">
-			<Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private\BP_Lib_V3BPLibrary.cpp">
-			<Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private\BP_Lib_V3PrivatePCH.h">
-			<Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private</Filter>
-		</ClInclude >
-		<Filter Include="Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public">
-			<UniqueIdentifier>{02D25C42-0D1E-4BF0-BC03-C394409EC1D2}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public\BP_Lib_V3.h">
-			<Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public\BP_Lib_V3BPLibrary.h">
-			<Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public</Filter>
-		</ClInclude >
-		<None Include="..\..\Plugins\BP_Lib_V3\BP_Lib_V3.uplugin">
-			<Filter>Plugins\BP_Lib_V3</Filter>
-		</None >
-		<Filter Include="Plugins\BP_Lib_V3\Resources">
-			<UniqueIdentifier>{31398D2D-1911-4DB6-84EC-E72C4B2FCE20}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\BP_Lib_V3\Resources\Icon128.png">
-			<Filter>Plugins\BP_Lib_V3\Resources</Filter>
-		</None >
-		<Filter Include="Source\V4_12_MyProject_1">
-			<UniqueIdentifier>{E002E08B-F04F-47C4-8726-C1F23E9E04EC}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1.Build.cs">
-			<Filter>Source\V4_12_MyProject_1</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1.cpp">
-			<Filter>Source\V4_12_MyProject_1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1.h">
-			<Filter>Source\V4_12_MyProject_1</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1GameMode.cpp">
-			<Filter>Source\V4_12_MyProject_1</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1GameMode.h">
-			<Filter>Source\V4_12_MyProject_1</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\V4_12_MyProject_1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{334F19E1-EAF0-43D5-B846-30824A99A353}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\V4_12_MyProject_1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\V4_12_MyProject_1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E94CB655-29B7-46B0-9DEF-8AEA38E87EC4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{76B93EAE-72DC-438A-BFFA-5BFBB348C3D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BP_Lib_V3">
+      <UniqueIdentifier>{72C267B5-4E83-4310-82D5-8F43D7E3E491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BP_Lib_V3\Source">
+      <UniqueIdentifier>{18F024DE-B7C5-4CF0-84BE-195B319E2342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BP_Lib_V3\Source\BP_Lib_V3">
+      <UniqueIdentifier>{46DDC8F2-BAA4-43DF-B3AD-575AB31E8389}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\BP_Lib_V3.Build.cs">
+      <Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3</Filter>
+    </None>
+    <Filter Include="Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private">
+      <UniqueIdentifier>{AABFFE05-E21E-469D-A20F-DB27055E68A0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private\BP_Lib_V3.cpp">
+      <Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private\BP_Lib_V3BPLibrary.cpp">
+      <Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private\BP_Lib_V3PrivatePCH.h">
+      <Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public">
+      <UniqueIdentifier>{02D25C42-0D1E-4BF0-BC03-C394409EC1D2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public\BP_Lib_V3.h">
+      <Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public\BP_Lib_V3BPLibrary.h">
+      <Filter>Plugins\BP_Lib_V3\Source\BP_Lib_V3\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\BP_Lib_V3\BP_Lib_V3.uplugin">
+      <Filter>Plugins\BP_Lib_V3</Filter>
+    </None>
+    <Filter Include="Plugins\BP_Lib_V3\Resources">
+      <UniqueIdentifier>{31398D2D-1911-4DB6-84EC-E72C4B2FCE20}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BP_Lib_V3\Resources\Icon128.png">
+      <Filter>Plugins\BP_Lib_V3\Resources</Filter>
+    </None>
+    <Filter Include="Source\V4_12_MyProject_1">
+      <UniqueIdentifier>{E002E08B-F04F-47C4-8726-C1F23E9E04EC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1.Build.cs">
+      <Filter>Source\V4_12_MyProject_1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1.cpp">
+      <Filter>Source\V4_12_MyProject_1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1.h">
+      <Filter>Source\V4_12_MyProject_1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1GameMode.cpp">
+      <Filter>Source\V4_12_MyProject_1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\V4_12_MyProject_1\V4_12_MyProject_1GameMode.h">
+      <Filter>Source\V4_12_MyProject_1</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\usr\Projets\Unreal Plugins\Étapes du Projet Création d%27un Plugin pour l%27Unreal Engine 4.12.5 (4).pdf" />
+  </ItemGroup>
 </Project>
