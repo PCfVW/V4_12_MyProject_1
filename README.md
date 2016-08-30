@@ -5,8 +5,8 @@ provides the following Linear Congruential Random Number Generators blueprint no
 
 1. Derrick Henry Lehmer's (1949),
 2. Standard minimal LCG (from NASA, 1982): a=16807 and m=2147483647),
-3. A much better LCG (from L'Ecuyer, 1990): a=40692 and m=2147483399),
-4. A combined LCG (from L'Ecuyer, 1990): a1=40014, m1=2147483563, a2=40692 and m2=2147483399 
+3. A much better LCG (from L'Ecuyer, 1988): a=40692 and m=2147483399),
+4. A combined LCG (from L'Ecuyer, 1988): a1=40014, m1=2147483563, a2=40692 and m2=2147483399 
 5. C88's LCG: a=1103515245, b=12345 and m=32768,
 6. Visual C/C++ LCG: a=214013, b=2531011 and m=2147483648.
 
