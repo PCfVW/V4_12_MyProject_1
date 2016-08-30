@@ -18,7 +18,7 @@ Implementation currently is trivial as it is meant to be pedagogical; a further 
 
 Move the mouse over the blueprint nodes to get the documentation.
 
-All Plugin files are provided. Nothing has been removed from the Unreal Project. Open the Blueprint level to find an example and the nodes.
+All Plugin files, including sources, are provided. Nothing has been removed from the Unreal Project. Open the Blueprint level to find an example and all the nodes provided by the Plugin.
 
 Do anything you want with it and, if you have time, keep me posted.
 
