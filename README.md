@@ -10,11 +10,11 @@ provides the following Linear Congruential Random Number Generators blueprint no
 5. C88's LCG: a=1103515245, b=12345 and m=32768,
 6. Visual C/C++ LCG: a=214013, b=2531011 and m=2147483648.
 
-LCG 2. is available from the C++ Standard Library as std::minstd_rand0() in <random>.
+LCG 2. is available from the C++ Standard Library as `std::minstd_rand0()` in `<random>`.
 
-LCGs 5. and 6. _exactly_ implement the rand() function from C88 and Visual C/C++, respectively. Please note that the Math/Random blueprint nodes provided by the UE4 uses 6. Use 3. or 4. if you want better randomness.
+LCGs 5. and 6. _exactly_ implement the `rand()` function from C88 and Visual C/C++, respectively. Please note that the Math/Random blueprint nodes provided by the UE4 uses 6. Use 3. or 4. if you want better randomness.
 
-Random seeds are automatically taken from time/1; but nodes are provided so that you can seed the LCGs yourself.
+Random seeds are automatically taken from `time`/1; but nodes are provided so that you can seed the LCGs yourself.
 
 Implementation currently is trivial as it is meant to be pedagogical; a further branch will provide more efficient implementations.
 
