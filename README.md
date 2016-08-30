@@ -14,7 +14,7 @@ LCG 2. is available from the C++ Standard Library as `std::minstd_rand0()` in `<
 
 LCGs 5. and 6. _exactly_ implement the `rand()` function from C88 and Visual C/C++, respectively. Please note that the Math/Random blueprint nodes provided by the UE4 uses 6. Use 3. or 4. if you want better randomness.
 
-Random seeds are automatically taken from `time`/1; but nodes are provided so that you can seed the LCGs yourself.
+Random seeds are automatically generated from `time`/1; but nodes are provided so that you can seed the LCGs yourself.
 
 Implementation currently is trivial as it is meant to be pedagogical; a further branch will provide more efficient implementations.
 
