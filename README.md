@@ -12,7 +12,13 @@ provides the following Linear Congruential Random Number Generators blueprint no
 
 LCG 2. is available from the C++11 Standard Library as `std::minstd_rand0()` in `<random>`.
 
-LCGs 5. and 6. _exactly_ implement the `rand()` function from C88 and Visual C/C++, respectively. Please note that the Math/Random blueprint nodes provided by the UE4 uses 6. Use 3. or 4. if you want better randomness.
+Use 3. if you want better randomness than 1., 2., and even 5. and 6.
+
+Use 4. if you want an even better randomness then 3. (bottom line: 4. is the best RNG provided by this plugin).
+
+LCGs 5. and 6. _exactly_ implement the `rand()` function from C88 and Visual C/C++, respectively.
+
+The Math/Random blueprint nodes provided by the UE4 uses 6.
 
 Random seeds are automatically generated from `time`/1; but nodes are provided so that you can seed the LCGs yourself.
 
