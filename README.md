@@ -14,7 +14,7 @@ LCG 2. is available from the C++11 Standard Library as `std::minstd_rand0()` in 
 
 Use 3. if you want better randomness than 1., 2., and even 5. and 6.
 
-Use 4. if you want an even better randomness then 3. (bottom line: 4. is the best RNG provided by this plugin).
+Use 4. if you want an even better randomness then 3. (bottom line: 4. is the best RNG provided by this Plugin).
 
 LCGs 5. and 6. _exactly_ implement the `rand()` function from C88 and Visual C/C++, respectively.
 
@@ -30,7 +30,7 @@ All Plugin files, including sources, are provided. Nothing has been removed from
 
 Do anything you want with it and, if you have time, please keep me posted. :smiley:
 
-If you can read french, steps by steps description of this project can be found [here](https://github.com/PCfVW/V4_12_MyProject_1/blob/master/%C3%89tapes%20du%20Projet%20Cr%C3%A9ation%20d'un%20Plugin%20pour%20l'Unreal%20Engine%204.12.5%20(4).pdf).
+If you can read french, steps by steps description of the making of this Plugin can be found [here](https://github.com/PCfVW/V4_12_MyProject_1/blob/master/%C3%89tapes%20du%20Projet%20Cr%C3%A9ation%20d'un%20Plugin%20pour%20l'Unreal%20Engine%204.12.5%20(4).pdf).
 
 If not, sorry then, as I might not go into translating this one;
 but you can still use the Plugin in a specific project or as an UE4 Plugin for any of your porjects.
