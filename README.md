@@ -36,3 +36,5 @@ If not, sorry then, as I might not go into translating this one;
 but you can still use the Plugin in a specific project (copy the Plugin in the "Plugins" directory of the specific project) or as an UE4 Plugin for any of your projects (copy the Plugin in UE4's "Plugins" directory).
 
 -- The AI Hedgehog.
+
+![Img](https://github.com/PCfVW/V4_12_MyProject_1/blob/master/Capture%20d%E2%80%99%C3%A9cran%20(125).png)
