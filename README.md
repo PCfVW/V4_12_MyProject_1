@@ -30,7 +30,7 @@ All Plugin files, including sources, are provided. Nothing has been removed from
 
 Do anything you want with it and, if you have time, please keep me posted. :smiley:
 
-If you can read french, steps by steps description of the making of this Plugin can be found [here](https://github.com/PCfVW/V4_12_MyProject_1/blob/master/%C3%89tapes%20du%20Projet%20Cr%C3%A9ation%20d'un%20Plugin%20pour%20l'Unreal%20Engine%204.12.5%20(4).pdf).
+If you can read french, step by step description of the making of this Plugin can be found [here](https://github.com/PCfVW/V4_12_MyProject_1/blob/master/%C3%89tapes%20du%20Projet%20Cr%C3%A9ation%20d'un%20Plugin%20pour%20l'Unreal%20Engine%204.12.5%20(4).pdf).
 
 If not, sorry then, as I might not go into translating this one;
 but you can still use the Plugin in a specific project or as an UE4 Plugin for any of your porjects.
