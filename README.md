@@ -4,6 +4,8 @@ A Linear Congruential Random Number Generator (LCG) generates an integer number 
 
      n_i = (a * n_(i-1) + b) modulo m
 
+For the next call to the LCG, n_i is used in the above formula to generate n_(i+1) and so on... The initial value n_0 used by the LCG to generate n_1 (and so on...) is called the seed of the random number generator.
+
 When b=0, LCGs are called Multiplicative LCGs (MLCGs).
 
 This project is an Unreal Engine 4.12.5 basic C++ project where a new Blueprint C++ Plugin is created; this Plugin
